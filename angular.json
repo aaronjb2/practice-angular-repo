@@ -66,7 +66,9 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "practice-angular-repo:build"
+            "browserTarget": "practice-angular-repo:build",
+            "host": "0.0.0.0",
+            "port": 4677
           },
           "configurations": {
             "production": {
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "practice-angular-repo"
+    }
+  },
+  "defaultProject": "practice-angular-repo",
+  "cli": {
+    "analytics": "ca0050b3-4e43-4c9a-bfa5-0ced8a0f8120"
+  }
 }
